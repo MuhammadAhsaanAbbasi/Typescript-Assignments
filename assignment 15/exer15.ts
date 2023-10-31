@@ -2,15 +2,14 @@
 //22-08-2023
 
 //Question 15
-let dinnerName=["Zyab","Hijab","Alizay"]
-let i=dinnerName;
-for(let i=0; i<dinnerName.length; i++){
-    console.log(`I invite you ${dinnerName[i]} come on a dinner`)
-}
+import { dinnerName1  } from "../assignment 14/exer14";
 
+
+export let dinnerName=dinnerName1
 console.log(`Due to some issue ${dinnerName[2]} is not coming`)
 dinnerName.splice(2,1,"Muqqadas")
 
-for(let i=0; i<dinnerName.length; i++){
-    console.log(`I invite you ${dinnerName[i]} come on a dinner`)
+for(let i=0; i<dinnerName1.length; i++){
+    console.log(`I invite you ${dinnerName1[i]} come on a dinner`)
 }
+
