@@ -5,11 +5,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.dinnerName = void 0;
 //Question 15
 const exer14_1 = require("../assignment 14/exer14");
-// let dinnerName=["Zyab","Hijab","Alizay"]
-// let i=dinnerName;
-// for(let i=0; i<dinnerName.length; i++){
-//     console.log(`I invite you ${dinnerName[i]} come on a dinner`)
-// }
 exports.dinnerName = exer14_1.dinnerName1;
 console.log(`Due to some issue ${exports.dinnerName[2]} is not coming`);
 exports.dinnerName.splice(2, 1, "Muqqadas");
